@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maxus Contribution Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <h1>Contribution Calculator</h1>
+            <label>Age</label>
+            <select id="selectAge">
+                <option>Choose your age.</option>
+            </select>
+
+            <label>Compensation</label>
+            <select id="selectComp">
+                <option>Choose your compensation.</option>
+            </select>
+
+            <button id="calculate" onclick="calculate()">Calculate</button>
+
+            <br><h2>Result: <span id="result">...</span></h2>
+        </div>
+
+        <script src="data.js" type="text/javascript"></script>
+        <script src="calculator.js" type="text/javascript"></script>
+    </body>
+</html>
