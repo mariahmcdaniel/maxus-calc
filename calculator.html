@@ -7,18 +7,21 @@
     <body>
         <div id="calculator">
             <h1>Contribution Calculator</h1>
-            <label>Age</label>
-            <select id="selectAge">
-                <option>Choose your age.</option>
-            </select>
-
-            <label>Compensation</label>
-            <select id="selectComp">
-                <option>Choose your compensation.</option>
-            </select>
-
+            <div>
+                <label>Age</label>
+                <select id="selectAge">
+                    <option>Choose your age.</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>Compensation</label>
+                <select id="selectComp">
+                    <option>Choose your compensation.</option>
+                </select>
+            </div>
+            
             <button id="calculate" onclick="calculate()">Calculate</button>
-
             <br><h2>Result: <span id="result">...</span></h2>
         </div>
 
