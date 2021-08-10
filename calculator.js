@@ -25,6 +25,15 @@ for (var i = 0; i < businessTypes.length; i++) {
     selectBusinessType.appendChild(element);
 };
 
+var selectEmployees = document.getElementById("selectEmployees");
+for (var i = 0; i < employeeTypes.length; i++) {
+    var option = employeeTypes[i];
+    var element = document.createElement("option");
+    element.textContent = option;
+    element.value = option;
+    selectEmployees.appendChild(element);
+};
+
 function calculate() {
     var age = selectAge.options[selectAge.selectedIndex].value;
     var compensation = selectCompensation.options[selectCompensation.selectedIndex].value;
