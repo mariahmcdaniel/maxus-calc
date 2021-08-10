@@ -22,7 +22,7 @@ function calculate() {
     var result = document.getElementById("result");
 
     var age_index = ages.indexOf(age);
-    var compensation_index = compensations.indexOf(comp);
+    var compensation_index = compensations.indexOf(compensation);
 
     result.textContent = '$' + data[age_index][compensation_index].toLocaleString("en-US");
 };
