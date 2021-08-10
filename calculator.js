@@ -7,22 +7,22 @@ for (var i = 0; i < ages.length; i++) {
     selectAge.appendChild(element);
 };
 
-var selectComp = document.getElementById("selectComp");
-for (var i = 0; i < comps.length; i++) {
-    var option = comps[i];
+var selectCompensation = document.getElementById("selectCompensation");
+for (var i = 0; i < compensations.length; i++) {
+    var option = compensations[i];
     var element = document.createElement("option");
     element.textContent = option;
     element.value = option;
-    selectComp.appendChild(element);
+    selectCompensation.appendChild(element);
 };
 
 function calculate() {
     var age = selectAge.options[selectAge.selectedIndex].value;
-    var comp = selectComp.options[selectComp.selectedIndex].value;
+    var compensation = selectCompensation.options[selectCompensation.selectedIndex].value;
     var result = document.getElementById("result");
 
     var age_index = ages.indexOf(age);
-    var comp_index = comps.indexOf(comp);
+    var compensation_index = compensations.indexOf(comp);
 
-    result.textContent = '$' + data[age_index][comp_index].toLocaleString("en-US");
+    result.textContent = '$' + data[age_index][compensation_index].toLocaleString("en-US");
 };
