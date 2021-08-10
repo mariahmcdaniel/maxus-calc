@@ -3,22 +3,23 @@
  * Unauthorized copying of this file is strictly prohibited
  * Written by Aaron Harabedian in 2021
  */
- 
+
 body {
     background-color: #fbfbfb;
     font-family: "Montserrat", Sans-serif;
-    color: #223645;
+    color: #000000;
     text-align: center;
+    font-size: large;
 }
 
 h1 {
-    font-size: 40pt;
+    font-size: 400%;
 }
 
 button {
     border: none;
     background-color: #95c35d;
-    padding: 15px 32px;
+    padding: 1em 2em;
     text-align: center;
     color: #fbfbfb;
     font-size: large;
@@ -34,10 +35,11 @@ button:hover {
 #calculator {
     margin: auto;
     width: 70%;
-    border: 3px solid #95c35d;
-    border-radius: 2em;
+    border: 1em solid #95c35d;
+    border-radius: 3em;
 }
 
 select {
     font-size: large;
+    text-align: center;
 }
