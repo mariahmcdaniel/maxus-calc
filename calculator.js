@@ -16,6 +16,15 @@ for (var i = 0; i < compensations.length; i++) {
     selectCompensation.appendChild(element);
 };
 
+var selectBusinessType = document.getElementById("selectBusinessType");
+for (var i = 0; i < businessTypes.length; i++) {
+    var option = businessTypes[i];
+    var element = document.createElement("option");
+    element.textContent = option;
+    element.value = option;
+    selectBusinessType.appendChild(element);
+};
+
 function calculate() {
     var age = selectAge.options[selectAge.selectedIndex].value;
     var compensation = selectCompensation.options[selectCompensation.selectedIndex].value;
