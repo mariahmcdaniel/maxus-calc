@@ -55,5 +55,15 @@ label {
 
 .form-group{
     border-bottom: 2px solid #e7e6ea;
-    padding-top: 1em;
+    padding: .5em 1em;
+}
+
+/* #questionsContainer {
+    display: flex;
+} */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
