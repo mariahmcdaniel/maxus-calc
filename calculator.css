@@ -40,7 +40,7 @@ button:hover {
     border-radius: 3em;
 }
 
-#cInput {
+.cInput {
     font-size: large;
     text-align: center;
     border-radius: 25px;
