@@ -43,7 +43,10 @@ for (var i = 0; i < employeeTypes.length; i++) {
 function calculate() {
     // Grab values from select fields
     var age = selectAge.value;
+    var minAge = selectAge.min;
     var compensation = selectCompensation.value;
+    var minCompensation = selectCompensation.min;
+    var compensationStep = selectCompensation.step;
     var businessType = selectBusinessType.options[selectBusinessType.selectedIndex].value;
     var employeeCount = selectEmployees.options[selectEmployees.selectedIndex].value;
 
@@ -51,8 +54,8 @@ function calculate() {
     var result = document.getElementById("result");
 
     // Calculate matrix index
-    var age_index = age-30;
-    var compensation_index = (compensation-135000)/5000;
+    var age_index = age-minAge;
+    var compensation_index = (compensation-minCompensation)/compensationStep;
 
     var PBGC = null;
 
