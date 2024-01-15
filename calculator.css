@@ -43,4 +43,5 @@ button:hover {
 #cInput {
     font-size: large;
     text-align: center;
+    border-radius: 25px;
 }
