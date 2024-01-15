@@ -18,6 +18,7 @@ h1 {
 
 button {
     border: none;
+    border-radius: 25px;
     background-color: #95c35d;
     padding: 1em 2em;
     text-align: center;
