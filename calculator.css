@@ -40,7 +40,7 @@ button:hover {
     border-radius: 3em;
 }
 
-select {
+#cInput {
     font-size: large;
     text-align: center;
 }
