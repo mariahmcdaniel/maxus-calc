@@ -5,22 +5,22 @@
  */
 
 var selectAge = document.getElementById("selectAge");
-for (var i = 0; i < ages.length; i++) {
-    var option = ages[i];
-    var element = document.createElement("option");
-    element.textContent = option;
-    element.value = option;
-    selectAge.appendChild(element);
-};
+// for (var i = 0; i < ages.length; i++) {
+//     var option = ages[i];
+//     var element = document.createElement("option");
+//     element.textContent = option;
+//     element.value = option;
+//     selectAge.appendChild(element);
+// };
 
 var selectCompensation = document.getElementById("selectCompensation");
-for (var i = 0; i < compensations.length; i++) {
-    var option = compensations[i];
-    var element = document.createElement("option");
-    element.textContent = option;
-    element.value = option;
-    selectCompensation.appendChild(element);
-};
+// for (var i = 0; i < compensations.length; i++) {
+//     var option = compensations[i];
+//     var element = document.createElement("option");
+//     element.textContent = option;
+//     element.value = option;
+//     selectCompensation.appendChild(element);
+// };
 
 var selectBusinessType = document.getElementById("selectBusinessType");
 for (var i = 0; i < businessTypes.length; i++) {
