@@ -44,4 +44,5 @@ button:hover {
     font-size: large;
     text-align: center;
     border-radius: 25px;
+    padding: 0.5em 1em;
 }
